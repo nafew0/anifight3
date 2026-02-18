@@ -46,7 +46,8 @@ class MultiplayerRoomViewSet(viewsets.ModelViewSet):
         room.save()
 
         # Generate join URL
-        frontend_url = f"http://localhost:5173"  # TODO: Make this configurable
+        from django.conf import settings
+        frontend_url = getattr(settings, 'FRONTEND_URL', 'http://localhost:5173')
         join_url = room.get_join_url(base_url=frontend_url)
 
         # Generate QR code
