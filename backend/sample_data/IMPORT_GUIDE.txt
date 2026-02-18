@@ -1,0 +1,93 @@
+╔══════════════════════════════════════════════════════════════╗
+║           AniFight - CSV Import Quick Guide                  ║
+╚══════════════════════════════════════════════════════════════╝
+
+STEP 1: Access Django Admin
+────────────────────────────────────────────────────────────────
+URL: http://localhost:8000/admin
+Username: admin
+Password: admin123
+
+
+STEP 2: Import Anime (IMPORT THIS FIRST!)
+────────────────────────────────────────────────────────────────
+1. Click "Anime" in the sidebar
+2. Click "IMPORT" button (top right)
+3. Choose file: anime_sample.csv
+4. Click "Submit"
+5. Review preview (should show 10 anime with anime_power_scale)
+6. Click "Confirm import"
+7. ✓ Success! You should see 10 anime imported with their power scales
+
+
+STEP 3: Import Characters
+────────────────────────────────────────────────────────────────
+1. Click "Characters" in the sidebar
+2. Click "IMPORT" button (top right)
+3. Choose file: characters_sample.csv
+4. Click "Submit"
+5. Review preview (should show ~40 characters)
+6. Click "Confirm import"
+7. ✓ Success! You should see all characters imported
+
+
+STEP 4: Verify Data
+────────────────────────────────────────────────────────────────
+✓ Anime: Should have 10 entries
+✓ Characters: Should have ~40 entries
+✓ Game templates: Should have 1 entry ("Standard 6v6", Published)
+
+
+FILE LOCATIONS (from backend/ directory)
+────────────────────────────────────────────────────────────────
+Anime CSV:      sample_data/anime_sample.csv
+Characters CSV: sample_data/characters_sample.csv
+
+
+TROUBLESHOOTING
+────────────────────────────────────────────────────────────────
+❌ If character import fails:
+   → Make sure you imported anime FIRST!
+   → Anime names in character CSV must match exactly
+
+❌ If validation errors occur:
+   → Check character_power is between 1.00-100.00
+   → Ensure required "name" field is not empty
+
+❌ If nothing shows in import preview:
+   → Check CSV file format (comma-separated)
+   → Ensure first row has column headers
+
+
+WHAT'S IN THE SAMPLE DATA
+────────────────────────────────────────────────────────────────
+Anime (10):
+- Naruto (APS: 8.5), One Piece (APS: 9.2), Attack on Titan (APS: 8.8),
+  My Hero Academia (APS: 8.0), Dragon Ball Z (APS: 9.5),
+  Demon Slayer (APS: 8.3), Bleach (APS: 8.7), Hunter x Hunter (APS: 9.0),
+  Fullmetal Alchemist (APS: 8.6), Jujutsu Kaisen (APS: 8.4)
+
+Characters (40):
+- Main characters from each anime
+- Various character power levels (CP: 15-100)
+- Mix of CAPTAIN, VICE CAPTAIN, TANK, HEALER, SUPPORT specialties
+- Some edge cases (no anime, missing stats)
+- Note: anime_power_scale is now on Anime, not Character
+
+
+NEXT: TEST THE ADMIN FEATURES
+────────────────────────────────────────────────────────────────
+✓ Search for characters by name
+✓ Filter characters by anime
+✓ Edit a character
+✓ Add a new character inline from anime page
+✓ Export data to CSV
+✓ View the GameTemplate settings
+
+
+READY FOR PHASE 3!
+────────────────────────────────────────────────────────────────
+Once data is imported and verified, you're ready to build
+the REST API in Phase 3.
+
+═══════════════════════════════════════════════════════════════

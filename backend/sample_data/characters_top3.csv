@@ -1,0 +1,31 @@
+name,anime,character_power,specialties
+Monkey D. Luffy,One Piece,95.0,CAPTAIN
+Roronoa Zoro,One Piece,93.0,"VICE CAPTAIN,TANK"
+Sanji,One Piece,90.0,SUPPORT
+Nami,One Piece,75.0,SUPPORT
+Nico Robin,One Piece,82.0,SUPPORT
+Tony Tony Chopper,One Piece,70.0,HEALER
+Usopp,One Piece,68.0,SUPPORT
+Brook,One Piece,72.0,SUPPORT
+Franky,One Piece,78.0,TANK
+Jinbe,One Piece,88.0,TANK
+Naruto Uzumaki,Naruto,95.0,CAPTAIN
+Sasuke Uchiha,Naruto,93.0,VICE CAPTAIN
+Kakashi Hatake,Naruto,88.0,SUPPORT
+Sakura Haruno,Naruto,80.0,HEALER
+Rock Lee,Naruto,82.0,TANK
+Itachi Uchiha,Naruto,96.0,CAPTAIN
+Minato Namikaze,Naruto,97.0,CAPTAIN
+Jiraiya,Naruto,90.0,SUPPORT
+Tsunade,Naruto,85.0,HEALER
+Might Guy,Naruto,87.0,TANK
+Ichigo Kurosaki,Bleach,96.0,CAPTAIN
+Rukia Kuchiki,Bleach,82.0,SUPPORT
+Renji Abarai,Bleach,85.0,VICE CAPTAIN
+Byakuya Kuchiki,Bleach,94.0,CAPTAIN
+Kenpachi Zaraki,Bleach,98.0,TANK
+Toshiro Hitsugaya,Bleach,88.0,VICE CAPTAIN
+Yoruichi Shihoin,Bleach,90.0,SUPPORT
+Kisuke Urahara,Bleach,92.0,SUPPORT
+Orihime Inoue,Bleach,75.0,HEALER
+Uryu Ishida,Bleach,78.0,SUPPORT

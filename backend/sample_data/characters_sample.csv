@@ -1,0 +1,42 @@
+name,anime,character_power,specialties
+Naruto Uzumaki,Naruto,95.0,CAPTAIN
+Sasuke Uchiha,Naruto,93.0,VICE CAPTAIN
+Kakashi Hatake,Naruto,88.0,SUPPORT
+Sakura Haruno,Naruto,75.0,HEALER
+Monkey D. Luffy,One Piece,98.0,CAPTAIN
+Roronoa Zoro,One Piece,95.0,"VICE CAPTAIN,TANK"
+Nami,One Piece,72.0,SUPPORT
+Tony Tony Chopper,One Piece,68.0,HEALER
+Eren Yeager,Attack on Titan,92.0,CAPTAIN
+Mikasa Ackerman,Attack on Titan,94.0,VICE CAPTAIN
+Levi Ackerman,Attack on Titan,97.0,"CAPTAIN,TANK"
+Armin Arlert,Attack on Titan,78.0,SUPPORT
+Izuku Midoriya,My Hero Academia,89.0,CAPTAIN
+Katsuki Bakugo,My Hero Academia,90.0,VICE CAPTAIN
+Shoto Todoroki,My Hero Academia,91.0,TANK
+Ochaco Uraraka,My Hero Academia,74.0,SUPPORT
+Goku,Dragon Ball Z,100.0,CAPTAIN
+Vegeta,Dragon Ball Z,99.0,VICE CAPTAIN
+Gohan,Dragon Ball Z,95.0,"TANK,SUPPORT"
+Piccolo,Dragon Ball Z,88.0,"SUPPORT,HEALER"
+Tanjiro Kamado,Demon Slayer,87.0,CAPTAIN
+Nezuko Kamado,Demon Slayer,85.0,TANK
+Zenitsu Agatsuma,Demon Slayer,80.0,SUPPORT
+Inosuke Hashibira,Demon Slayer,82.0,TANK
+Ichigo Kurosaki,Bleach,96.0,CAPTAIN
+Rukia Kuchiki,Bleach,84.0,SUPPORT
+Renji Abarai,Bleach,86.0,VICE CAPTAIN
+Gon Freecss,Hunter x Hunter,88.0,CAPTAIN
+Killua Zoldyck,Hunter x Hunter,89.0,VICE CAPTAIN
+Kurapika,Hunter x Hunter,85.0,SUPPORT
+Leorio Paradinight,Hunter x Hunter,70.0,HEALER
+Edward Elric,Fullmetal Alchemist,91.0,CAPTAIN
+Alphonse Elric,Fullmetal Alchemist,87.0,TANK
+Roy Mustang,Fullmetal Alchemist,90.0,VICE CAPTAIN
+Yuji Itadori,Jujutsu Kaisen,86.0,CAPTAIN
+Megumi Fushiguro,Jujutsu Kaisen,84.0,SUPPORT
+Nobara Kugisaki,Jujutsu Kaisen,82.0,TANK
+Satoru Gojo,Jujutsu Kaisen,99.0,"CAPTAIN,SUPPORT"
+Character With No Anime,,50.0,SUPPORT
+Character With Missing Stats,One Piece,,HEALER
+Weak Character,Naruto,15.0,

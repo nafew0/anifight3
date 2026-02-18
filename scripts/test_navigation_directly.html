@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Direct Navigation Test</title>
+</head>
+<body>
+    <h1>Multiplayer Navigation Test</h1>
+    <p>Testing if route works when accessed directly:</p>
+    <ul>
+        <li><a href="http://localhost:5173/">Home</a></li>
+        <li><a href="http://localhost:5173/multiplayer/create">Create Room</a></li>
+        <li><a href="http://localhost:5173/multiplayer/game/TEST123">Test Game Room (TEST123)</a></li>
+    </ul>
+    
+    <h2>Instructions:</h2>
+    <ol>
+        <li>Click the "Test Game Room" link above</li>
+        <li>Check the browser console (F12)</li>
+        <li>Look for MultiplayerGameScreen logs</li>
+        <li>If you see "No room code in URL", the route extraction failed</li>
+        <li>If you see "Room code from URL: TEST123", the route works!</li>
+    </ol>
+</body>
+</html>
