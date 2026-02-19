@@ -31,7 +31,10 @@ class GameWebSocket {
 
   connect() {
     const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
-    const wsUrl = `${protocol}//${window.location.hostname}:8000/ws/game/${this.roomCode}/`;
+    // In production (HTTPS), Nginx proxies to backend, so don't include port
+    // In development (HTTP), connect directly to backend on port 8000
+    const port = window.location.protocol === 'https:' ? '' : ':8000';
+    const wsUrl = `${protocol}//${window.location.hostname}${port}/ws/game/${this.roomCode}/`;
 
     console.log(`[WebSocket] Connecting to ${wsUrl}`);
 
